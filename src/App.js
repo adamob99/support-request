@@ -3,7 +3,8 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SupportRequestForm from './components/SupportRequestForm';
 import ConfirmationPage from './components/ConfirmationPage';
-import store from './redux/store'; // Default store import
+import { store } from './redux/store';
+
 
 import './App.css';
 

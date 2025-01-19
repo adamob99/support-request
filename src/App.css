@@ -1,0 +1,124 @@
+form {
+  max-width: 500px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form select,
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+/* Tags section *//* Tags section */
+/* Tags section */
+.checkbox-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Stack checkboxes vertically */
+  gap: 10px; /* Ensure no gaps between rows */
+}
+
+.checkbox-container label {
+  display: flex;
+  align-items: center; 
+  font-weight: normal;
+  margin: 0; 
+  gap: 10px; 
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin: 0; 
+  padding: 0; 
+  flex-shrink: 0; 
+  width: auto; 
+  height: auto; 
+}
+
+
+/* Confirmation Page Styles */
+.confirmation-container {
+  max-width: 500px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.confirmation-container h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; /* Center-align only the header */
+}
+
+.confirmation-content {
+  text-align: left; /* Left-align all other content */
+}
+
+.confirmation-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.confirmation-content ol {
+  margin-left: 0; /* Remove extra indentation */
+  padding-left: 20px; /* Add consistent padding for alignment */
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+.confirmation-content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px; /* Add spacing above the button */
+}
+
+.confirmation-content button:hover {
+  background-color: #0056b3;
+}
+
